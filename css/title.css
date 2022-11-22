@@ -1,0 +1,105 @@
+div#title{
+  background-image: url(../img/newbg_3_crop.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  /*! border-bottom: 3px solid #ccc; */
+  height: 1080px;
+  }
+  div#title .wrap{
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  align-items: flex-start;
+  position: relative;
+  padding: 0;
+  height: 100%;
+  }
+  div#title .wrap>span{
+  /*! text-align: center; */
+  color: #b16c5c;
+  color: #fff;
+  margin-top: 260px;
+  }
+  div#title h2{
+  line-height: 1.6;
+  font-size: 24px;
+  font-size: 40px;
+  line-height: 1.7;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-family: 'ChosunGs';
+  font-style: italic;
+  text-shadow: 1px 1px 3px black;
+  color: #fff;
+  padding: 30% 0 0 0;
+}
+  div#title h2 + p{ /* + 인접선택자,형제선택자 h2다음에 오는 p */
+  font-size: 45px;
+  line-height: 1.8;
+  /*! font-weight: 700; */
+  line-height: 1.6;
+  font-size: 18px;
+  color: #d6d6d6;
+  font-family: 'Pretendard-Regular';
+  text-shadow: 1px 1px 3px black;
+  }
+  div#title h2 + p + p{
+  line-height: 1.6;
+  font-size: 21px;
+  }
+  div#title a.shop{ 
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 40px;
+  border: 1px solid #fff;
+  padding: 15px 35px;
+  border-radius: 30px;
+  font-weight: 500;
+  transition: all 0.5s;
+  box-shadow: 2px 2px #fff;
+  font-family: 'Pretendard-Regular';
+  }
+  div#title a.shop:hover{
+  background-color: #fff;
+  color: #b16c5c;
+  font-weight: 500;
+  box-shadow: none;
+  transform: translate(2px, 2px);
+  } 
+/*   div#title a.shop::after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/arrow_right_p.svg);
+  background-size: 25%;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+ */
+  
+  /*   text-decoration: none;
+  font-size: 0;
+  width: 150px;
+  height: 150px;
+  background-image: url(../img/circle-title-p.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  bottom: 200px;
+  right: 0;
+  display: block;
+  box-sizing: border-box; */
+  
+  
+  
+  
+  
+  
+  
+  
+  
